@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     $('a[href*="#"]').on('click',function(e){
 
-        e.preventDefoult();
+        e.preventDefault();
 
         $('html, body').animate({
 
